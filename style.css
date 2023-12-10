@@ -1,0 +1,80 @@
+body {
+    max-width: 800px;
+    background: white;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkblue;
+    font-size: 12pt;
+}
+#tartalom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "a b b"
+    "c c c"
+    "d e f";
+}
+#a {
+    grid-area: a;
+}
+#b {
+    grid-area: b;
+}
+#c {
+    grid-area: c;
+}
+#d {
+    grid-area: d;
+    border-radius: 10px;
+    border: 5px solid darkred;
+    box-shadow: 3px 3px darkred;
+    border-style: outset;
+    color: darkred;
+    background: pink;
+}
+#e {
+    grid-area: e;
+}
+#f {
+    grid-area: f;
+    border-radius: 10px;
+    border: 5px solid darkgreen;
+    box-shadow: 3px 3px darkgreen;
+    border-style: outset;
+    color: darkgreen;
+    background: white;
+}
+p {
+    text-align: justify;
+}
+.ul1 {
+    list-style: inside url(icon_bad.png);
+}
+.ul2 {
+    list-style: inside url(icon_good.png);
+}
+.bekezedes, h1 {
+    text-align: center;
+}
+.bold {
+    font-weight: bold;
+}
+#nyil {
+    max-width: 240px;
+    padding-top: 150px;
+    margin-left: 20px;
+    margin: 10px;
+}
+#ferde {
+    border-style: double;
+    border-color: yellow;
+    background-color: blue;
+    color: yellow;
+    width: 260px;
+    height: 60px;
+    padding: 10px;
+    padding-right: 0px;
+    text-align: center;
+    transform: translate(-10px, 0) rotate(20deg);
+}
+
